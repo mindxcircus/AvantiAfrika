@@ -1,0 +1,84 @@
+body {
+    padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.logo {
+    max-width: 80px;
+    margin-right: 0.35em;
+    margin-bottom: 0.5em;
+    
+}
+
+.logo-type {
+    font-family: 'Laila', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    color:#213478;
+}
+
+.logo-subText {
+    font-family: 'Laila', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-weight: 500;
+    color:#213478;
+    letter-spacing: 0.35rem;
+}
+
+.heroText {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5rem;
+    text-align: end;
+    padding-right: 1.6em;
+    letter-spacing: 0.085em;
+    color:#213478
+}
+
+.card {
+    border-radius: 0px;
+    border: 0px;
+}
+
+.img-tile :hover {
+    transition: .5s ease-in-out;
+    opacity: 0.6;
+    cursor: grab;
+}
+
+.overlay {
+    transition: .5s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+
+.img-tile:hover img {
+    opacity: 0.3;
+}
+
+.card:hover {
+    background-color: #0808dfd3;
+    opacity: 1;
+}
+
+.img-tile:hover .overlay {
+    opacity: 1;
+    
+}
+
+.textBtn {
+    color: white;
+    font-family: 'Laila', sans-serif;
+    font-size: 1.45em;
+}
