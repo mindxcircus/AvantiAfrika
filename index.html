@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style/main.css">
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Laila:wght@400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Laila:wght@400;500;600&family=Nunito:wght@200;300;400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+    </style>
     </style>
 
   </head>
@@ -18,6 +19,10 @@
             <span class="left">
                 <img class="logo p-1" src="assets/images/AA-logo.png" alt="Avanti Afrika Logo" href="#"/>
             </span>
+            <span class="right p-2">
+                <img src="assets/icons/icons8-facebook-48.png" alt="facebook">
+                <img src="assets/icons/icons8-instagram-48.png" alt="instagram">
+            </span>
             <span class="pt-1">
                 <h3 class="logo-type pt-2 mb-0">Avanti Afrika</h3>
                 <h5 class="logo-subText p-1">Tours & safaris</h5>
@@ -26,12 +31,12 @@
         <!---- .end of Header --->
 
         <!-- Adventure Awaits hero text-->
-        <div class="heroText text-capitalize">
-            Adventure Awaits!
+        <div class="heroText">
+            Adventure awaits!
         </div>
     </section>
     
-        <div class="container-xl p-4">
+        <div class="container-xl p-4 pt-0">
             <div class="row">
                 <!--LEFT TILES-->
                 <div class="col-md-4 align-self-start">
@@ -47,7 +52,7 @@
                             <div class="textBtn">Food & Street Art Tour</div>
                         </div>
                     </div>
-                    <div class="row card img-tile my-3 gx-2" style="max-height: 510px;">
+                    <div class="row card img-tile my-3 gx-2" style="height:auto">
                         <img src="assets/images/pexels-mark-de-jong-6815842.jpg" class="img-fluid p-0" alt="Photo by Mark De Jong @Pexels" href="#">
                         <div class="overlay">
                             <div class="textBtn">Big 5 Safaris</div>
@@ -58,15 +63,19 @@
                 <!--CENTER TILES-->
                 <div class="col-4 align-self-start">
                     <div class="row card img-tile my-3 gx-2">
-                        <img src="assets/images/pexels-kampus-production-7568989.jpg" class="img-fluid p-0" alt="Photo by Kampus Production @Pexels" href="#">
+                        <img src="assets/images/Wine Tasting.jpg" class="img-fluid p-0" alt="Wine Tasting" href="#">
                         <div class="overlay">
                             <div class="textBtn">Cape Winelands</div>
+                                <div class="d-flex mx-auto p-3" style="max-width: 300px;justify-content: space-evenly;">
+                                <a class="btn btn-outline-light left" href="#" role="button">Half-day</a>
+                                <a class="btn btn-outline-light right" href="#" role="button">Full-day</a>
+                                </div>    
+                            </div>
                         </div>
-                    </div>
                     <div class="row card img-tile my-3 gx-2">
                         <img src="assets/images/pexels-harry-cunningham-harrydigital-3347323.jpg" class="img-fluid p-0" alt="Simon's Town by Harry Cunningham @Pexels" href="#">
                         <div class="overlay">
-                            <div class="textBtn">Cape Point &<br>Simon's Town</div>
+                            <div class="textBtn">Cape Point & Simons Town</div>
                         </div>
                     </div>
                     <div class="row card img-tile my-3 gx-2">
@@ -76,7 +85,9 @@
                         </div>
                     </div>
                 </div>
-                <!--RIGHT TILES-->
+
+                <!--
+                RIGHT TILES
                 <div class="col-3 align-self-start">
                     <div class="row card img-tile my-3 gx-2">
                         <img src="assets/images/AA-logo.png" class="img-fluid p-0" alt="" href="#">
@@ -96,9 +107,51 @@
                             <div class="textBtn">Cape Town City Events<br>Calendar</div>
                         </div>
                     </div>
+                </div>-->
+
+                <div class="col-md-4 align-self-start">
+                    <div class="row card img-tile my-3 gx-2" style="min-height: 180px;">
+                        <img src="assets/images/Garden Route.jpg" class="img-fluid p-0" alt="Garden Route" href="#">
+                        <div class="overlay">
+                            <div class="textBtn">Garden Route</div>
+                        </div>
+                    </div>
+                    <div class="row card img-tile my-3 gx-2" style="height: auto;">
+                        <img src="assets/images/pexels-jean-van-der-meulen-6158044.jpg" class="img-fluid p-0" alt="Photo by jean van der Meulen" href="#">
+                        <div class="overlay">
+                            <div class="textBtn">Historical Tour</div>
+                        </div>
+                    </div>
+                    <div class="row card img-tile my-3 gx-2" style="max-height: auto;">
+                        <img src="assets/images/john-o-nolan-H5twKTsyXr0-unsplash.jpg" class="img-fluid p-0" alt="Photo by Mark De Jong @Pexels" href="#">
+                        <div class="overlay">
+                            <div class="textBtn">Helicopter Flips</div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
-        </div>
+
+            <!--Section: ABOUT US-->
+            <div class="title" alt="about us">
+                <h2 class="text-center" style="font-weight: 600">About Us</h2>
+                <p class="p-1">
+                    Avanti Afrika Tours and Safaris is a premier tour operator based in Cape Town, South Africa. With over a decade of experience, we have been providing exceptional travel experiences since our establishment in 2008. Our team of knowledgeable and registered tour guides are dedicated to creating unforgettable adventures across the diverse landscapes of South Africa. From thrilling wildlife safaris to cultural immersions, we offer a wide range of tailor-made tours that cater to the unique preferences and interests of our clients. Our commitment to excellence, attention to detail, and personalized service sets us apart as a trusted and reliable choice for exploring the wonders of South Africa. 
+                </p>
+            </div>
+            <hr/>
+            <!--Section: Team AA-->
+            <div class="title" alt="Team">
+                <h2 class="text-center" style="font-weight: 600">Our Team</h2>
+                <p class="p-1">
+                    <b>George Alexander</b> is an experienced and fully registered tour guide from Cape Town, South Africa. He has a deep understanding of the city's history, culture, and attractions. With his friendly and engaging personality, George ensures that every tour is informative, entertaining, and memorable. He takes pride in showcasing the diverse landscapes, iconic landmarks, and hidden gems of Cape Town to visitors from around the world. 
+                </p>
+                <p class="p-1">
+                    <b>Paul Avenant</b> plays a crucial role in connecting travellers with the best options for their visit to Cape Town, South Africa. As our online guest relations officer, he collaborates closely with each client to understand their preferences, budget, and desired itinerary, offering personalized recommendations and suggestions. Paul utilizes his extensive knowledge of the Western Cape to curate unique and tailored travel packages that cater to individual interests and requirements. 
+                </p>
+            </div>
+
+        </div> <!--.end of Container-->
           
     <!------Bootstrap JS line starts below-->>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
