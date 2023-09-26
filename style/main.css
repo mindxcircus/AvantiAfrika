@@ -3,6 +3,20 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.35rem;
+}
+
+b {
+    font-weight: 600;
+}
+
+.btn-outline-light {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
 .left {
     float: left;
 }
@@ -39,8 +53,8 @@ body {
     font-family: 'Kaushan Script', cursive;
     font-size: 5rem;
     text-align: end;
-    padding-right: 1.6em;
-    letter-spacing: 0.085em;
+    padding-right: 0em;
+    letter-spacing: 0.05em;
     color:#213478
 }
 
@@ -51,7 +65,7 @@ body {
 
 .img-tile :hover {
     transition: .5s ease-in-out;
-    opacity: 0.6;
+    opacity: 1;
     cursor: grab;
 }
 
@@ -80,5 +94,27 @@ body {
 .textBtn {
     color: white;
     font-family: 'Kaushan Script', cursive;
-    font-size: 2em;
+    font-size: 1.45em;
+}
+
+.title {
+    padding: 1.25em;
+    font-family: 'Laila', sans-serif;
+}
+
+
+
+@media screen and (max-width:375px){
+    .heroText {
+        display:none
+    }
+
+    .logo-type {
+        font-size: 1.25rem;
+    }
+    
+    .logo-subText {
+        letter-spacing: 0em;
+        font-size: 1em;
+    }
 }
