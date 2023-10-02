@@ -5,16 +5,49 @@ body {
 
 p {
     font-family: 'Nunito', sans-serif;
-    font-size: 1.35rem;
+    font-size: 1.55rem;
+    color: #213487;
+    text-align: justify;
 }
 
 b {
     font-weight: 600;
 }
 
+.breadcrumb {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.breadcrumb-item {
+    color: #053980;
+}
+
+.breadcrumb-item:active{
+    color: #9a9da7;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
+
 .btn-outline-light {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
+    border-radius: 50px;
+}
+
+.btn-info {
+    width: 373px;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: #053980;
+    border: 0;
+    color: white;
+    font-size: 1.75em;
+    padding-bottom: 0.35em;
 }
 
 .left {
@@ -37,7 +70,7 @@ b {
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: 600;
-    color:#213478;
+    color:#053980;
 }
 
 .logo-subText {
@@ -45,7 +78,7 @@ b {
     text-transform: capitalize;
     font-size: 1.5em;
     font-weight: 500;
-    color:#213478;
+    color:#053980;
     letter-spacing: 0.35rem;
 }
 
@@ -55,7 +88,7 @@ b {
     text-align: end;
     padding-right: 0em;
     letter-spacing: 0.05em;
-    color:#213478
+    color:#053980
 }
 
 .card {
@@ -100,12 +133,14 @@ b {
 .title {
     padding: 1.25em;
     font-family: 'Laila', sans-serif;
+    color: #213487;
 }
-
 
 .brochure {
     max-width: 100%;
 }
+
+
 
 
 @media screen and (max-width:375px){
