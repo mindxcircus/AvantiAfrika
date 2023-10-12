@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style/main.css">
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Laila:wght@400;500;600&family=Nunito:wght@200;300;400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
-    </style>
+        @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Kaushan+Script&family=Laila:wght@400;500;600&family=Nunito:wght@200;300;400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+        </style>
     </style>
 
   </head>
@@ -17,12 +17,26 @@
     <section class="container-xl pt-4">
         <div class="header">
             <span class="left">
-                <img class="logo p-1" src="assets/images/AA-logo.png" alt="Avanti Afrika Logo" href="index.html"/>
+                <img class="logo p-1" src="assets/images/AA-logo.png" alt="Avanti Afrika Logo" href="#"/>
             </span>
             <span class="right p-2">
-                <img src="assets/icons/icons8-email-64.png" alt="facebook" style="max-width: 41px;">
-                <img src="assets/icons/icons8-facebook-96.png" alt="facebook" style="max-width: 38px;">
-                <img src="assets/icons/icons8-instagram-96.png" alt="instagram" style="max-width: 38px;">
+                <ul class="nav">
+                    <li class="nav-item pt-1">
+                      <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item pt-1">
+                        <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <img src="assets/icons/icons8-whatsapp-50.png" class="p-1" alt="whatsapp" style="max-width: 38px;">
+                    </li>
+                    <li class="nav-item">
+                        <img src="assets/icons/icons8-facebook-96.png" class="p-1" alt="facebook" style="max-width: 40px;">
+                    </li>
+                    <li class="nav-item">
+                        <img src="assets/icons/icons8-instagram-96.png" class="p-1" alt="instagram" style="max-width: 40px;">
+                    </li>
+                </ul>
             </span>
             <span class="pt-1">
                 <h3 class="logo-type pt-2 mb-0">Avanti Afrika</h3>
@@ -38,145 +52,172 @@
     </section>
     
         <div class="container-xl p-4 pt-0">
+            <div class="row" style="margin-bottom: 6.5rem;">
+                <!--FULL DAY TOURS TOP 3-->
+                <div class="col-md-4 card">
+                    <img class="box-img" src="assets/images/box-bokaap.jpg"/>
+                    <p class="card-title mb-0">Cape Town & Table Mountain - Full Day Private Tour</p>
+                    <span>
+                        <p class="card-subtext pt-1 pb-1 left"><img class="icon-img p-1" src="assets/icons/timer_FILL0_wght400_GRAD0_opsz24.svg">7 hours</p>
+                        <p class="card-subtext pt-1 pb-1 right">ZAR 2,450</p>
+                    </span>
+                    <p class="tour-info">A private full day tour of Cape Town and Table Mountain allows for ample time to explore the rich history, vibrant culture and majestic scenery that the Mother City has to offer..</p>
+                    <span><button class="btn btn-info p-2">Book Now</button></span>
+                </div>
+
+                <div class="col-md-4 card">
+                    <img class="box-img" src="assets/images/box-wine-tasting.jpg"/>
+                    <p class="card-title mb-0">Cape Winelands & Wine Tasting - Full Day Private Tour</p>
+                    <span>
+                        <p class="card-subtext pt-1 pb-1 left"><img class="icon-img p-1" src="assets/icons/timer_FILL0_wght400_GRAD0_opsz24.svg">7 hours</p>
+                        <p class="card-subtext pt-1 pb-1 right">ZAR 2,450</p>
+                    </span>
+                    <p class="tour-info">A full day private tour of the Cape Winelands takes visitors on a leisurely meander through this scenic wine growing region visiting numerous wineries and points of interest along the way.</p>
+                    <span><button class="btn btn-info p-2">Book Now</button></span>
+                </div>
+
+                <div class="col-md-4 card">
+                    <img class="box-img" src="assets/images/box-penguins.jpg"/>
+                    <p class="card-title mb-0">Cape Point & Simon's Town - Full Day Private Tour</p>
+                    <span>
+                        <p class="card-subtext pt-1 pb-1 left"><img class="icon-img p-1" src="assets/icons/timer_FILL0_wght400_GRAD0_opsz24.svg">7 hours</p>
+                        <p class="card-subtext pt-1 pb-1 right">ZAR 2,450</p>
+                    </span >
+                    <p class="tour-info">This full day private tour takes visitors along a scenic coastal route to Cape Point and The Cape of Good Hope nature reserve stopping at numerous points of interest along the way.</p>
+                    <span><button class="btn btn-info p-2">Book Now</button></span>
+                </div>
+            </div>
+            
+            <!--HALF DAY TOURS TOP 3-->
+
             <div class="row">
-                <!--LEFT TILES-->
-                <div class="col-md-4 align-self-start">
-                    <div class="row card img-tile my-3 gx-2" style="min-height: 180px;">
-                        <img src="assets/images/pexels-op-13791905.jpg" class="img-fluid p-0" alt="Bo-kaap by Op23" href="#">
-                        <div class="overlay">
-                            <div class="textBtn">Cape Town &<br>Table Mountain</div>
-                            <div class="d-flex mx-auto p-3" style="max-width: 250px;justify-content: space-evenly;">
-                                <a class="btn btn-outline-light right" href="/pages/fullday-winetour.html" role="button">Full-day</a>
-                                <a class="btn btn-outline-light left" href="/pages/halfday-winetour.html" role="button">Half-day</a>
-                            </div> 
-                        </div>
-                    </div>
-                    <div class="row card img-tile my-3 gx-2" style="height: auto;">
-                        <img src="assets/images/SAfood.jpg" class="img-fluid p-0" alt="Photo by jean van der Meulen" href="#">
-                        <div class="overlay">
-                            <div class="textBtn">Food & Street Art Tour</div>
-                        </div>
-                    </div>
-                    <div class="row card img-tile my-3 gx-2" style="min-height: auto;">
-                        <img src="assets/images/Garden Route.jpg" class="img-fluid p-0" alt="Garden Route" href="#">
-                        <div class="overlay">
-                            <div class="textBtn">Garden Route</div>
-                        </div>
-                    </div>
-                    
-                </div>
-                <!--CENTER TILES-->
-                <div class="col-4 align-self-start">
-                    
-                    <div class="row card img-tile my-3 gx-2">
-                        <img src="assets/images/pexels-harry-cunningham-harrydigital-3347323.jpg" class="img-fluid p-0" alt="Simon's Town by Harry Cunningham @Pexels" href="#">
-                        <div class="overlay">
-                            <div class="textBtn">Cape Point Tour</div>
-                            <div class="d-flex mx-auto p-3" style="max-width: 250px;justify-content: space-evenly;">
-                                <a class="btn btn-outline-light right" href="#" role="button">Full-day</a>
-                                <a class="btn btn-outline-light left" href="#" role="button">Half-day</a>
-                            </div> 
-                        </div>
-                    </div>
-                    <div class="row card img-tile my-3 gx-2">
-                        <img src="assets/images/Wine Tasting.jpg" class="img-fluid p-0" alt="Wine Tasting" href="#">
-                        <div class="overlay">
-                            <div class="textBtn">Cape Winelands</div>
-                                <div class="d-flex mx-auto p-3" style="max-width: 300px;justify-content: space-evenly;">
-                                <a class="btn btn-outline-light right" href="pages/fullday-winetour.html" role="button">Full-day</a>
-                                <a class="btn btn-outline-light left" href="pages/halfday-winetour.html" role="button">Half-day</a>
-                            </div>    
-                        </div>
-                    </div>
-                    <div class="row card img-tile my-3 gx-2">
-                        <img src="assets/images/pexels-jong-gyu-song-11337348.jpg" class="img-fluid p-0" alt="" href="#">
-                        <div class="overlay">
-                            <div class="textBtn">Ultimate<br>Adventure Day</div>
-                        </div>
-                    </div>
-                    
+                <!--FULL DAY TOURS TOP 3-->
+                <div class="col-md-4 card">
+                    <img class="box-img" src="assets/images/pexels-pixabay-70080.jpg"/>
+                    <p class="card-title mb-0">Big 5 Safaris - Half Day Tour</p>
+                    <span>
+                    <p class="card-subtext pt-1 pb-1 left"><img class="icon-img p-1" src="assets/icons/timer_FILL0_wght400_GRAD0_opsz24.svg">7 hours</p>
+                    <p class="card-subtext pt-1 pb-1 right">ZAR 2,450</p>
+                    </span>
+                    <p class="tour-info">Lorem ipsum dolor sit amet con event tila sit edvacum dase.</p>
+                    <span><button class="btn btn-info p-2">Book Now</button></span>
                 </div>
 
-                <!--
-                RIGHT TILES
-                <div class="col-3 align-self-start">
-                    <div class="row card img-tile my-3 gx-2">
-                        <img src="assets/images/AA-logo.png" class="img-fluid p-0" alt="" href="#">
-                        <div class="overlay">
-                            <div class="textBtn">About Us</div>
-                        </div>
-                    </div>
-                    <div class="row card img-tile my-3 gx-2" style="max-height:370px">
-                        <img src="assets/images/john-o-nolan-H5twKTsyXr0-unsplash.jpg" class="img-fluid p-0" alt="" href="#">
-                        <div class="overlay">
-                            <div class="textBtn">Helicopter Flips<br>(Aerial Tours)</div>
-                        </div>
-                    </div>
-                    <div class="row card img-tile my-3 gx-2" >
-                        <img src="assets/images/love-capetown.jpg" class="img-fluid p-0" alt="" href="#">
-                        <div class="overlay">
-                            <div class="textBtn">Cape Town City Events<br>Calendar</div>
-                        </div>
-                    </div>
-                </div>-->
+                <div class="col-md-4 card">
+                    <img class="box-img" src="assets/images/box-helicopter.jpg"/>
+                    <p class="card-title mb-0">Helicopter - Half Day Tour</p>
+                    <p class="card-subtext pt-1 pb-1">ZAR 2,450</p>
+                    <p class="tour-info">A full day private tour of the Cape Winelands takes visitors on a leisurely meander through this scenic wine growing region visiting numerous wineries and points of interest along the way.</p>
+                    <span><button class="btn btn-info p-2">Book Now</button></span>
+                </div>
 
-                <div class="col-md-4 align-self-start">
-                    
-                    <div class="row card img-tile my-3 gx-2" style="height:auto">
-                        <img src="assets/images/pexels-pixabay-34098.jpg" class="img-fluid p-0" alt="Photo by Pixabay @Pexels" href="#">
-                        <div class="overlay">
-                            <div class="textBtn">Big 5 Safaris</div>
-                        </div>
-                    </div>
-                    <div class="row card img-tile my-3 gx-2" style="height: auto;">
-                        <img src="assets/images/small group.jpg" class="img-fluid p-0" alt="Small group tours" href="#">
-                        <div class="overlay" style="top:32%">
-                            <div class="textBtn">Small Group &<br>Custom Tours</div>
-                        </div>
-                    </div>
-                    <div class="row card img-tile my-3 gx-2" style="max-height: auto;">
-                        <img src="assets/images/pexels-maarten-van-den-heuvel-4490700.jpg" class="img-fluid p-0" alt="helicopter tour" href="#">
-                        <div class="overlay">
-                            <div class="textBtn">Helicopter Flips</div>
-                        </div>
-                    </div>
-                    
+                <div class="col-md-4 card">
+                    <img class="box-img" src="assets/images/box-penguins.jpg"/>
+                    <p class="card-title mb-0">Cape Point & Simon's Town - Full Day Tour</p>
+                    <p class="card-subtext pt-1 pb-1">ZAR 2,450</p>
+                    <p class="tour-info">This full day private tour takes visitors along a scenic coastal route to Cape Point and The Cape of Good Hope nature reserve stopping at numerous points of interest along the way.</p>
+                    <span><button class="btn btn-info p-2">Book Now</button></span>
                 </div>
             </div>
-  
-            <!--Section: ABOUT US-->
-            <div class="title" alt="about us">
-                <h2 class="text-center" style="font-weight: 600">About Us</h2>
-                <p class="p-1">
-                    Avanti Afrika Tours and Safaris is a premier tour operator based in Cape Town, South Africa. With over a decade of experience, we have been providing exceptional travel experiences since our establishment in 2008. Our small team of knowledgeable and registered tour guides are dedicated to creating unforgettable adventures across the diverse landscapes of South Africa. From thrilling wildlife safaris to cultural immersions, we offer a wide range of tailor-made tours that cater to the unique preferences and interests of our clients. Our commitment to excellence, attention to detail, and personalized service sets us apart as a trusted and reliable choice for exploring the wonders of South Africa. 
-                </p>
+            <hr>
+            <div class="row mt-4">
+                <div class="col-lg d-flex mx-auto align-items-center" style="justify-content: center;">
+                    <img class="icon-highlight" src="assets/icons/icons8-website-locked-96.png" style="max-width: 56px;"/><h5 class="mr-4">SSL Secure Payment</h5>
+                    <img class="icon-highlight" src="assets/icons/icons8-timezone-globe-96.png" style="max-width: 56px;" /><h5 class="mr-4">Real-time Availability</h5>
+                    <img class="icon-highlight" src="assets/icons/icons8-event-accepted-96.png" style="max-width: 56px;"/><h5 class="mr-4">Instant Confirmation</h5>
+                </div>
             </div>
-            <hr/>
-            <!--Section: Team AA-->
+            <hr>
+            <!--Section: Tiles -->
+            <div class="container-md" style="margin-top:4em">
+                <div class="row">
+                    <div class="col-sm-4 card">
+                        <img class="box-img" src="assets/images/box-capetown.jpg"/>
+                        <p class="card-title-overlay mb-0">Full Day Tours</p>
+                    </div>
+                    <div class="col-sm-4 card">
+                        <img class="box-img" src="assets/images/box-halfdaytour.jpg"/>
+                        <p class="card-title-overlay mb-0">Half Day Tours</p>
+                    </div>
+                    <div class="col-sm-4 card">
+                        <img class="box-img" src="assets/images/box-penguins.jpg"/>
+                        <p class="card-title-overlay mb-0">Multi-day Tours</p>
+                    </div>
+                    <div class="col-sm-4 card">
+                        <img class="box-img" src="assets/images/pexels-pixabay-70080.jpg"/>
+                        <p class="card-title-overlay mb-0">Day & Multi-day Safaris</p>
+                    </div>
+                    <div class="col-sm-4 card">
+                        <img class="box-img" src="assets/images/paragliding-edgar-laureano-unsplash.jpg"/>
+                        <p class="card-title-overlay mb-0">Ultimate Adventure Tours</p>
+                    </div>
+                    <div class="col-sm-4 card">
+                        <img class="box-img" src="assets/images/box-smallgroup.jpg"/>
+                        <p class="card-title-overlay mb-0">Small Group & Custom Tours</p>
+                    </div>
+                    <div class="col-sm-4 card">
+                        <img class="box-img" src="assets/images/box-halfdaytour.jpg"/>
+                        <p class="card-title-overlay mb-0">Daily Schedule Tours</p>
+                    </div>
+                    <div class="col-sm-4 card">
+                        <img class="box-img" src="assets/images/love-capetown.jpg"/>
+                        <p class="card-title-overlay mb-0">Shuttles & Transfers</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Section: Team AA move to own page
             <div class="title" alt="Team">
                 <h2 class="text-center" style="font-weight: 600">Team Avanti Afrika</h2>
-              <div class="row p-2">
                 <p class="p-1">
-                    <img class="img-thumbnail rounded float-start" src="assets/images/GeorgeA.jpg" alt="George" style="max-width: 160px; border: 0px; margin-right:1.2em">
+                    <img class="img-thumbnail rounded float-start" src="/assets/images/GeorgeA.jpg" alt="George" style="max-width: 200px; border: 0px; margin-right:1.2em">
                     <b>George Alexander</b> is an experienced and fully registered tour guide from Cape Town, South Africa. As a born Capetonian, he has a deep understanding of the city's history, culture, and attractions. With his friendly and engaging personality, George ensures that every tour is informative, entertaining, and memorable. He takes pride in showcasing the diverse landscapes, iconic landmarks, and hidden gems of Cape Town to visitors from around the world. 
                 </p>
-              </div>
-              <div class="row p-2">
-                <p class="p-1 mt-2">
-                    <img class="img-thumbnail rounded float-start" src="assets/images/PaulA.jpg" alt="George" style="max-width: 160px; border: 0px; margin-right:1.2em">
+                <p class="p-1 mt-5">
+                    <img class="img-thumbnail rounded float-start" src="/assets/images/PaulA.jpg" alt="George" style="max-width: 200px; border: 0px; margin-right:1.2em">
                     <b>Paul Avenant</b> plays a crucial role in connecting travellers with the best options for their visit to Cape Town, South Africa. As our virtual guest relations officer, he collaborates closely with each client to understand their preferences, budget, and desired itinerary, offering personalized recommendations and suggestions. Having guided tours in Cape Town since 2008, Paul utilizes his extensive knowledge of the Western Cape to curate unique and tailored travel experiences that cater to individual interests and requirements. 
                 </p>
-              </div>
-            </div>
+            </div>-->
+            
 
-            <footer>2023 All Rights Reserved. Icons by <a target="_blank" href="https://icons8.com">Icons8</a></footer>
+            <div class="footer-container mt-5">
+                <div class="row">
+                    <div class="col-md-6 p-3">
+                        <!--Section: ABOUT US-->
+                        <div class="title" alt="about us" style="font-size: large;">
+                            <h5 class="text-left" style="font-weight: 600; color: white;">About Us</h5>
+                            <p class="p-1" style="font-size: medium; color: white; text-align: justify;">
+                                Since our establishment in 2008, we have been providing exceptional travel experiences in Cape Town and beyond. From immersive private day tours to thrilling wildlife safaris, we offer a wide range of tailor-made tours that cater to your unique preferences and interests.<br>Our commitment to excellence, attention to detail, and personalized service sets us apart as a trusted and reliable choice for exploring the wonders of South Africa. 
+                            </p>
+                        </div>
+                    </div>
+                    <!--Section: Social Media Icons-->
+                    <div class="col-md-3 p-3 mt-5">
+                        <h5 class="text-left" style="font-weight: 600; color: white;">Half Day Private Tours</h5>
+                        <h5 class="text-left" style="font-weight: 600; color: white;">Full Day Private Tours</h5>
+                        <h5 class="text-left" style="font-weight: 600; color: white;">Multi Day Private Tours</h5>
+                        <h5 class="text-left" style="font-weight: 600; color: white;">Day & Multi Day Safaris</h5>
+                        <h5 class="text-left" style="font-weight: 600; color: white;">Small Groups & Custom Tours</h5>
+                        <h5 class="text-left" style="font-weight: 600; color: white;">Daily Schedule Tours</h5>
+                        <h5 class="text-left" style="font-weight: 600; color: white;">Ultimate Adventure Days</h5>
+                        <h5 class="text-left" style="font-weight: 600; color: white;">Shuttles & Transfers</h5>
+                            
+                    </div>
+                    <div class="col-md-3 mt-5">
+                        <div class="p-2">
+                            <img src="assets/icons/icons8-email-64.png" alt="email" style="max-width: 40px;"><a class="h5 p-1" href="#" style="text-decoration: none; color: white;">E-mail</a><br>
+                            <img src="assets/icons/icons8-facebook-96.png" class="p-1" alt="facebook" style="max-width: 40px;"><a class="h5 p-1" href="#" style="text-decoration: none; color: white;">Facebook</a><br>
+                            <img src="assets/icons/icons8-instagram-96.png" class="p-1" alt="instagram" style="max-width: 40px;"><a class="h5 p-1" href="#" style="text-decoration: none; color: white;">Instagram</a>
+                        </div>
+                    </div>
+                    <footer class="p-3">2023 All Rights Reserved. Icons by <a target="_blank" href="https://icons8.com">Icons8</a></footer>
+                </div>
+            </div>
+            
 
         </div> <!--.end of Container-->
-
-    <!---- Rezdy JS --->
-  
+          
     <!------Bootstrap JS line starts below-->>
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
